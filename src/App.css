@@ -1,0 +1,956 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Pages{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+header{
+  position: fixed;
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+header .nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  background-color: #252734;
+  width: 100%;
+  gap: 1rem;
+  
+}
+header .nav-container .logo{
+ font-weight: 500;
+ font-family: Comorant Garamond;
+ color: white;
+}
+header .nav-container .hire-me{
+  all: unset;
+  /*background-color: aquamarine;*/
+  padding: 0.8rem 2.6rem;
+  border-radius: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+
+header .nav-container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*background-color: red;*/
+  list-style: none;
+  gap:1rem;
+}
+header .nav-container ul li a{
+  /*background-color: green;*/
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+header .nav-container ul li a{
+  color: grey;
+}
+header .nav-container ul li a:hover{
+  color: white;
+}
+
+header .mobile-menu{
+  display: none;
+}
+body{
+  background-color: #252734;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: blue;*/
+  height: 100%;
+  gap: 1rem;
+}
+figure{
+  padding: 2px;
+}
+img.pic{
+  align-self: flex-end;
+  /*background-color: yellow;*/
+  width: 100%;
+  height: auto;
+  /*padding-top: 140px;
+  padding-right: 180px;*/
+
+}
+.front_page{
+  display: flex;
+  flex-direction: column;
+ /* background: green;*/
+  width: 100%;
+  height: 700px;
+  gap: 1rem;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: 15%;
+}
+h1.name{
+  all: unset;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+  font-family: Cormorant Garamond;
+  padding-left: 50px;
+  width: 60%;
+}
+.job{
+
+  color: gray;
+  padding-left: 55px;
+  /*background-color: red;*/
+}
+.res{
+  all: unset;
+  padding-left: 50px;
+  /*background-color: blue;*/
+  padding-top: 4%;
+}
+button.resume{
+  all: unset;
+  background-color: transparent;
+  border: 2px solid grey;
+  border-radius: 50px;
+  height: 63px;
+  width: 120px;
+  border-color: gray;
+  color: white;
+  padding-left: 31px;
+}
+.video{
+  all: unset;
+padding-left: 50px;
+color: white;
+padding-top: 7%;
+}
+.video button{
+  all: unset;
+  color: gray;
+border: 2px solid white;
+width: 50px;
+padding-left: 35px;
+height: 80px;
+border-radius: 68px;
+
+}
+.video button:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.services_class{
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1065px;
+  background-color: #2E303D;
+}
+i{
+  /*background-color: blue*/
+padding-left: 30px;
+padding-top: 75px;
+font-size: 1rem;
+color: gray;
+font-weight: 200;
+font-family: Inter;
+font-style: unset;
+}
+
+h1{
+  padding-left: 10%;
+  padding-top: 0%;
+  font-size: 3rem;
+  color: white;
+  font-family: Cormorant Garamond;
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  /*background-color: blue;*/
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #252734;
+  width: 23%;
+  padding: 10% 1%;
+  color: white;
+  font-size: 1rem;
+  font-family: Inter;
+  height: 200px;
+  text-align: center;
+}
+
+.designTypes{
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  padding: 1rem;
+  line-height: 200%;
+  padding-bottom: 0px;
+}
+
+/* .SkillContainer i{ 
+padding-left: 55px;
+padding-top: 75px;
+font-size: 1rem;
+color: gray;
+font-weight: 200;
+font-family: Inter;
+font-style: unset;
+ } */
+
+.SpecialSkillsClass{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 850px;
+}
+.SkillContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Second{
+  padding-left: 9%;
+}
+.Ratings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background-color: yellow;*/
+  width: 40%;
+  padding-right: 8%;
+  padding-left: 0;
+  padding-top: 5%;
+}
+
+.SkillsContainer{
+  display: flex;
+  flex-direction: column;
+  /*background-color: blue;*/
+  height: 100%;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.Skill{
+  display: flex;
+  flex-direction: column;
+  background-color: #2E303D;
+  height: 13%;
+  padding-top: 4%;
+  line-height: 4rem;
+  padding-left: 3rem;
+  width: 100%;
+  color: gray;
+}
+.Line{
+  border: 0 none;
+  width: 80%;
+  height: 4%;
+  background-color: white;
+  
+}
+.Comm{
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+.Lead{
+  display: flex;
+  flex-direction: row;
+  gap: 45%;
+}
+.Team{
+  display: flex;
+  flex-direction: row;
+  gap: 45%;
+}
+.Flexi{
+  display: flex;
+  flex-direction: row;
+  gap: 45%;
+}
+
+.Works{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E303D;
+  width: 100%;
+  height: 330px;
+  gap: 12%;
+  padding-top: 5%;
+  color: white;
+}
+.HappyClients{
+  display: flex;
+  flex-direction: row;
+  /*background-color: green;*/
+  height: 160px;
+  padding-top: 0px;
+  line-height: 6rem;
+  width: 16%;
+  /* padding-left: 2rem; */
+  /* background-color: blue; */
+  gap: 2rem;
+}
+.ProjectComplete{
+  display: flex;
+  flex-direction: row;
+  /*background-color: green;*/
+  height: 160px;
+  padding-top: 0px;
+  line-height: 6rem;
+  width: 16%;
+  /* padding-left: 2rem; */
+  /* background-color: blue; */
+  gap: 2rem;
+}
+.YearsExp{
+  display: flex;
+  flex-direction: row;
+  /*background-color: green;*/
+  height: 160px;
+  padding-top: 0px;
+  line-height: 6rem;
+  width: 16%;
+  /* padding-left: 2rem; */
+  /* background-color: blue; */
+  gap: 2rem;
+}
+.UserIcon{
+  border: solid;
+  width: 25%;
+  height: 35%;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+}
+.SettingsIcon{
+  border: solid;
+  width: 25%;
+  height: 35%;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+}
+.CalendarIcon{
+  border: solid;
+  width: 25%;
+  height: 35%;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+}
+.numText{
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+}
+.num{
+  font-size: 2rem;
+}
+.Text{
+  color: gray;
+  font-style: unset;
+  line-height: 1rem;
+}
+.Projects{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .Projects i{ 
+  padding-left: 55px;
+padding-top: 75px;
+font-size: 1rem;
+color: gray;
+font-weight: 200;
+font-family: Inter;
+font-style: unset;
+} */
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.image{
+  width: 60%;
+  height: 70%;
+}
+
+
+.TestimonialContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2E303D;
+  height: 900px;
+}
+.TestimonialContainer h1{
+  padding-left: 0px;
+}
+.Testimonies{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #172A3A; */
+
+  width: 90%;
+  gap: 3rem;
+  text-align: center;
+}
+.test{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #252734;
+  height: 555px;
+  color: white;
+  font-family: Comorant Garamond;
+  font-weight: 200;
+  font-size: 1.5rem;
+  width: 100%;
+  
+}
+.apostrophe{
+  align-self: flex-start;
+  font-size: 4rem;
+  /* background-color: blue; */
+  width: 50%;
+  /* padding-right: 42%; */
+  font-family: Comorant Garamond;
+  margin-bottom: 0px;
+}
+.testifier{align-self: flex-start;
+  padding: 60px 15px;
+  font-size: 0.9rem;
+}
+.Says{
+  text-align: center;
+  width: 90%;
+}
+
+.FiveStars{
+  display: flex;
+  flex-direction: row;
+  color: orange;
+  font-size: 1rem;
+  padding-left: 70%;
+}
+.OddStar{
+  color: white;
+}
+
+.TrustedCompanyClass{
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  width: 100%;
+  height:1700px;
+}
+.CompaniesContainer{
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Company{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  border: solid;
+  height: 80%;
+  width: 25%;
+}
+.Company:hover{
+  color: white;
+}
+
+.BlogPost{
+  text-align: center;
+}
+.TipsHeader{
+  text-align: center;
+}
+.TipsTricksContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+.GokuImage{
+  height: 200px;
+}
+.Message{
+  display: flex;
+  background-color: #2E303D;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  color: white;
+}
+.Message:hover{
+  background-color: #252734;
+}
+.Info{
+  padding-left: 3rem;
+}
+.FooterClass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 480px;
+  background-color: #252734; 
+}
+.NewsletterHeader{
+  text-align: center;
+  padding-left: 0%;
+}
+
+
+.Email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+   gap: 3rem; 
+   /* background-color: red;  */
+  height: 145px;
+  width: 100%;
+}
+#EmailBar{
+  height: 50px;
+  background-color: transparent;
+  width: 35%;
+  border-radius: 30px;
+}
+.SubscribeButton{
+  all: unset;
+  color: white;
+/* border: gray solid 2px; */
+height: 50px;
+width: 10%;
+text-align: center;
+border-radius: 40px;
+background-color: #2E303D;
+
+}
+.SubscribeButton:hover{
+  border: 2px solid white;
+  transition: ease-out 2s;
+  cursor: pointer;
+}
+
+.ContactsMedia{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.Tel{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-size: 1.3rem;
+}
+.Mail{
+  font-size: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.Call{
+  font-size: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+ .Phone{ 
+  border: 2px solid white;
+  height: 22px;
+  width: 22px;
+  border-radius: 40px;
+  padding: 5px;
+}
+.Phone:hover{
+  color: #252734;
+  background-color: white;
+}
+.Envelope{
+  border: 2px solid white;
+  height: 22px;
+  width: 22px;
+  border-radius: 40px;
+  padding: 5px;
+}
+.Envelope:hover{
+  color: #252734;
+  background-color: white;
+}
+
+.Facebook:hover{
+  color: #252734;
+  background-color: white;
+}
+.LinkedIn:hover{
+  color: #252734;
+  background-color: white;
+ } 
+.Globe:hover{
+  color: #252734;
+  background-color: white;
+}
+.End{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.LastLine{
+  border: 0 none;
+width: 100%;
+height: 1px;
+background-color: white;
+position: relative;
+top: 35px;
+}
+
+@media only screen and  (max-width:1280px){
+  .TestimonialContainer{
+    height: 2080px;
+  }
+  .Testimonies{
+    flex-direction: column;
+  }
+ 
+  .Email{
+    gap: 3rem;
+  }
+  .SubscribeButton{
+    width: 15%;
+  }
+}
+
+
+@media only screen and (max-width:900px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+  }
+  header .nav-container .hire-me{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .SpecialSkillsClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1087px;
+  }
+  .Ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: yellow*/
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 0%;
+    align-items: center;
+    height: 100%;
+    padding-top: 0px;
+  }
+ 
+  .SkillsContainer{
+    width: 100%;
+    align-items: center;
+  }
+  .Skill{
+    width: 80%;
+    background-color: #2E303D;
+    padding-top: 2%;
+    height: 100px;
+  }
+  .TestimonialContainer{ 
+    height: 2080px;
+  } 
+  .TestimonialContainer h1{
+    padding-left: 0px;
+    text-align: center;
+  }
+  .Message{
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 500px;
+    padding-left: 10%;
+  }
+  .Info{
+    padding-left: 0px;
+  }
+  .TrustedCompanyClass{
+    height:2745px;
+  }
+  .CompaniesContainer{
+    display: flex;
+    flex-direction: column;
+   /* background-color: green;  */
+    height: 440px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Company{ 
+
+    height: 30%;
+    width: 30%;
+   } 
+}
+
+
+@media only screen and (max-width:763px) {
+  header .mobile-menu{
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+  header .nav-container .hire-me{
+    padding: 0.2rem 1rem;
+font-size: 0.9rem;
+  }
+  header .mobile-menu .bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: #252734;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2rem;
+  }
+   .bar button{
+    all: unset;
+   }
+   .bar button:hover{
+    cursor: pointer;
+    color: white;
+   }
+   .bar h1{
+    color: white;
+    font-family: Comorant Garamond;
+   }
+
+   .menu{
+    all:unset;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-color: #172A3A;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    gap:1rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    right: 0px;
+   }
+   .menu li{
+    /*background-color: brown;*/
+    width: 50%;
+   }
+   .menu a{
+    all:unset;
+    font-size: 2rem;
+    display: block;
+    font-weight: 500;
+    text-align:start;
+    color: grey;
+
+    /*background-color: green;*/
+    width: 100%;
+
+   }
+   .menu a:hover{
+    color: white;
+    cursor: pointer;
+   }
+   .hidden{
+    display: none;
+   }
+   .visible{
+    display: flex;
+   }
+  header .nav-container{
+    display: none;
+  }
+
+  .front_page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    gap: 1rem;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  .about{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+img.pic{
+  align-self: flex-start;
+  /* background-color: yellow; */
+  
+  /*padding-top: 140px;
+  padding-right: 180px;*/
+
+}
+h1.name {
+  all: unset;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+  font-family: Cormorant Garamond;
+  text-align: center;
+}
+  
+.video{
+  all: unset;
+  padding-left: 50px;
+  color: white;
+  padding-top: 43px;
+}
+.res{
+  all: unset;
+  padding-left: 50px;
+  /*background-color: blue;*/
+  padding-top: 7%;
+}
+
+.services_class{
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1400px;
+  background-color: #2E303D;
+}
+
+.services_class h1 {
+  padding-right: 10%;
+}
+.boxes{
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #252734;
+  width: 37%;
+  padding: 10% 1%;
+  color: white;
+  font-size: 1rem;
+  font-family: Inter;
+  height: 200px;
+}
+
+.designTypes{
+  line-height: 130%;
+}
+
+.HappyClients{
+  flex-direction: column;
+  gap: 1rem;
+}
+.HappyClients p{
+  margin: 0px;
+}
+.ProjectComplete p{
+  margin: 0px;
+}
+.YearsExp p{
+  margin: 0px;
+}
+.UserIcon{
+  width: 25%;
+  height: 55%;
+}
+.ProjectComplete{
+  flex-direction: column;
+  gap: 1rem;
+}
+.YearsExp{
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.UserIcon{
+  width: 25%;
+  height: 55%;
+}
+
+.SettingsIcon{
+    width: 25%;
+    height: 55%;
+}
+.CalendarIcon{
+  width: 25%;
+  height: 55%;
+}
+.Email{
+  flex-direction: column;
+  gap: 1rem;
+}
+.SubscribeButton{
+  width: 33%;
+}
+}
